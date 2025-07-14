@@ -1,0 +1,110 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fff9f9;
+  color: #333;
+}
+
+header {
+  background-color: #ffccdd;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #b6004c;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #7a003c;
+  font-weight: bold;
+}
+
+.category {
+  padding: 2rem;
+}
+
+.category h2 {
+  color: #b6004c;
+  border-bottom: 2px solid #ffd1e1;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: 200px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: #ffccdd;
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+}
+/* Add to existing style.css file */
+
+.cart-btn {
+  background-color: #b6004c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cart-btn:hover {
+  background-color: #7a003c;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.heart {
+  font-size: 20px;
+  color: #aaa;
+  cursor: pointer;
+  user-select: none;
+}
+
+.heart.liked {
+  color: red;
+}

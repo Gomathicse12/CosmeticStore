@@ -1,0 +1,26 @@
+/* Additional styles for About Page */
+
+.about-section, .team-section {
+  padding: 2rem;
+  background-color: #fff0f5;
+  border-radius: 12px;
+  margin: 1rem auto;
+  max-width: 900px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.about-section h2, .team-section h2 {
+  color: #b6004c;
+  margin-bottom: 1rem;
+}
+
+.about-section p, .team-section p, .team-section ul {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.team-section ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
